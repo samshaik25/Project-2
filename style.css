@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Poppins";
+  font-size: 15px;
+  background: #FAFAFA;
+
+}
+.creative{
+    /* display: block; */
+    margin-top:90px;
+    margin-left: 180px;
+    margin-right: 160px;
+    color: #000000;
+}
+
+.heading{
+    display: flex;
+    margin-bottom:20px ;
+}
+.head{
+    font-family:"PT Serif";
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    margin-left: 350px;
+
+}
+ .who{
+        font-weight: 600;
+        font-size: 1rem;
+        word-spacing: -0.05rem;
+        
+    }
+    
+    .description{
+        font-size: 0.9rem;
+        font-weight: 400;
+        margin-top: 5px;
+  word-spacing: 0.4rem;
+  letter-spacing: 0.1rem;
+}
+.image-container1{
+    display: flex;
+    
+    justify-content: space-between;
+    margin-top:80px;
+    
+}
+
+.image-container2{
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px;
+}
+.avatar-img{
+    width:238px;
+    /* height: 426px; */
+}
+.img{
+    width: 120%;
+}
+.inverse{
+display: flex;
+}
+.saba-griff{
+    margin-top:90px;
+}
+
+.role{
+    margin-left: 10px;
+    writing-mode: vertical-rl;
+text-orientation: mixed;
+font-family: "PT Serif";
+font-weight: 400;
+font-size: 0.8rem;
+text-transform: uppercase;
+
+}
+.name{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    word-spacing: 0.1rem;
+}

@@ -33,12 +33,13 @@ body {
     flex-direction: column;
     /* width:100%; */
     /* margin-left: 450px; */
+    margin-right:40px
 
 }
  .who{
         font-weight: 600;
         font-size: 1.2rem;
-        word-spacing: -0.07rem;
+        word-spacing: -0.08rem;
         
     }
     
@@ -46,8 +47,8 @@ body {
  font-size: 0.9rem;
 font-weight: 400;
 margin-top: 5px;
-word-spacing: 0.4rem;
-letter-spacing: 0.1rem;
+word-spacing: 0.6rem;
+letter-spacing: 0.2rem;
 }
 .image-container1{
     display: flex;

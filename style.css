@@ -12,7 +12,7 @@ body {
 
 }
 .creative{
-    margin :90px 200px 0 180px ;
+    margin :100px 220px 0 200px ;
     color: #000000;
 }
 
@@ -44,7 +44,7 @@ body {
     }
     
 .description{
- font-size: 0.9rem;
+ font-size: 1rem;
 font-weight: 400;
 margin-top: 5px;
 word-spacing: 0.6rem;
@@ -68,7 +68,7 @@ letter-spacing: 0.2rem;
     /* height: 426px; */
 }
 .img{
-    width: 120%;
+    width: 126%;
 }
 .inverse{
 display: flex;

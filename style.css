@@ -12,63 +12,59 @@ body {
 
 }
 .creative{
-    margin :100px 220px 0 200px ;
+    margin :100px 260px 120px 290px ;
     color: #000000;
 }
 
 .heading{
     display: flex;
-    margin-bottom:20px ;
+    margin-bottom:50px ;
     justify-content: space-between;
 }
 .head{
     font-family:"PT Serif";
-    font-size: 2.1rem;
+    font-size: 2.6rem;
     font-weight: bold;
-    /* margin-right: 350px; */
-
 }
 .about{
+    align-self: center;
     display: flex;
     flex-direction: column;
-    /* width:100%; */
-    /* margin-left: 450px; */
-    margin-right:40px
-
+    margin-right: 120px;
 }
  .who{
-        font-weight: 600;
-        font-size: 1.2rem;
-        word-spacing: -0.08rem;
+     margin-bottom: 5px;
+     font-weight: 600;
+    font-size: 1.4rem;
+    word-spacing: -0.08rem;
         
     }
     
 .description{
- font-size: 1rem;
-font-weight: 400;
-margin-top: 5px;
+ font-size: 1.2rem;
+font-weight: 100;
+margin-top: 7px;
 word-spacing: 0.6rem;
 letter-spacing: 0.2rem;
 }
+
 .image-container1{
-    display: flex;
-    
+    display: flex;  
     justify-content: space-between;
-    margin-top:80px;
+    margin-top:150px;
     
 }
 
 .image-container2{
     display: flex;
     justify-content: space-between;
-    margin-top:50px;
+    margin-top:60px;
 }
 .avatar-img{
-    width:238px;
-    /* height: 426px; */
+    width:80% 
 }
 .img{
-    width: 126%;
+    width: 88%;
 }
 .inverse{
 display: flex;
@@ -83,7 +79,7 @@ display: flex;
 text-orientation: mixed;
 font-family: "PT Serif";
 font-weight: 400;
-font-size: 0.8rem;
+font-size: 0.9rem;
 text-transform: uppercase;
 
 }
@@ -93,3 +89,13 @@ text-transform: uppercase;
     font-size: 1.2rem;
     word-spacing: 0.1rem;
 }
+.foot { 
+    color: #BDBDBD;
+    font-family: Montserrat;
+    font-size: 1.3rem;
+    text-align: center;
+ }
+.f{ 
+    margin-right: 90px;
+    margin-bottom:25px
+} 

@@ -9,93 +9,151 @@ body {
   font-family: "Poppins";
   font-size: 15px;
   background: #FAFAFA;
-
 }
 .creative{
-    margin :100px 260px 120px 290px ;
+    margin-top: 8vh;
+    margin-left:6vw ;
     color: #000000;
 }
 
-.heading{
-    display: flex;
-    margin-bottom:50px ;
-    justify-content: space-between;
-}
+
 .head{
     font-family:"PT Serif";
-    font-size: 2.6rem;
+    font-size: 2.3rem;
     font-weight: bold;
+    margin-bottom: 5vh;
 }
-.about{
-    align-self: center;
-    display: flex;
-    flex-direction: column;
-    margin-right: 120px;
-}
+
  .who{
-     margin-bottom: 5px;
      font-weight: 600;
     font-size: 1.4rem;
-    word-spacing: -0.08rem;
+    
+    margin-bottom: 2.5vh;
         
     }
     
 .description{
- font-size: 1.2rem;
+ font-size: 1rem;
 font-weight: 100;
-margin-top: 7px;
-word-spacing: 0.6rem;
-letter-spacing: 0.2rem;
+
 }
 
-.image-container1{
+.image-container{
     display: flex;  
-    justify-content: space-between;
-    margin-top:150px;
+     flex-wrap: wrap;
+    
+    margin-top: 7vh;
     
 }
 
-.image-container2{
-    display: flex;
-    justify-content: space-between;
-    margin-top:60px;
-}
-.avatar-img{
-    width:80% 
+.images{
+     width:50%  
 }
 .img{
-    width: 88%;
+    width: 35vw;
+    height: 27vh;
 }
 .inverse{
-display: flex;
-}
-.saba-griff{
-    margin-top:90px;
-}
+    display: flex;
+    }
 
 .role{
-    margin-left: 10px;
-    writing-mode: vertical-rl;
+margin-left:1vw;
+writing-mode: vertical-rl;
 text-orientation: mixed;
 font-family: "PT Serif";
 font-weight: 400;
-font-size: 0.9rem;
+font-size: 0.7rem;
 text-transform: uppercase;
-
+}
+.drag{
+       margin-top: 10vh;
 }
 .name{
-    margin-top: 10px;
+    margin-top: 1vh;
     font-weight: 600;
-    font-size: 1.2rem;
-    word-spacing: 0.1rem;
+    font-size: 1rem;
 }
 .foot { 
     color: #BDBDBD;
     font-family: Montserrat;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: center;
  }
 .f{ 
-    margin-right: 90px;
-    margin-bottom:25px
+    margin-top: 9vh;
+    margin-bottom: 2vh;
 } 
+
+@media only screen and (min-width:900px)
+{
+      .creative{
+          margin-top: 10vh;
+          margin-left: 12vw;
+      }
+      .heading{
+        display: flex; 
+         
+         justify-content: space-between;
+    
+    }
+    .head{
+        font-family:"PT Serif";
+        font-size: 2.3rem;
+        font-weight: bold;
+    }
+    .about{
+    
+         margin-right:15vw;
+         margin-bottom: 4vh;
+    }
+    .who{
+        font-weight: 600;
+       font-size: 1.4rem;
+       margin-bottom: 2.5vh;
+           
+       }
+       
+   .description{
+    font-size: 1.2rem;
+   font-weight: 100;
+   word-spacing: 0.1rem;
+   letter-spacing: 0.2rem;
+  
+   }
+   .image-container{
+    display: flex;  
+    gap:2vw;
+    margin-top: 10vh;
+    
+}
+.images{
+    width:25vw
+}
+.img{
+   width: 17vw;
+   height: 45vh;
+}
+.drag{
+    margin-top:12vh
+}
+.griff{
+    margin-top:24vh ;
+}
+.name{
+    margin-top: 1vh;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.role{
+    margin-left:0.8vw;
+    font-weight: 400;
+    font-size: 0.9rem;
+    }
+    .foot { 
+        color: #BDBDBD;
+        font-family: Montserrat;
+        font-size: 1.3rem;
+        text-align: center;
+     }
+}
